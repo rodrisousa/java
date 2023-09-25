@@ -1,16 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.idiomasistema;
 
-/**
- *
- * @author Rodrigo
- */
+import java.util.Locale;
+
 public class IdiomaSistema {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Locale idioma = Locale.getDefault();
+        System.out.println("O idioma do computador é");
+        System.out.println(idioma);
+        
     }
 }
